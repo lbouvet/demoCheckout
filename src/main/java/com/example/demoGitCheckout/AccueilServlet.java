@@ -9,6 +9,10 @@ import java.io.IOException;
 public class AccueilServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        request.setAttribute("name", "Laurent Bouvet");
+
+
         RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/accueil.jsp");
         rd.forward(request, response);
     }

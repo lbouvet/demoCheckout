@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>Accueil</h1>
+    <p>Bonjour ${name}</p>
 </body>
 </html>
