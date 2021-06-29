@@ -9,6 +9,7 @@ import java.io.IOException;
 public class ContactServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //commentaire
         RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/contact.jsp");
         rd.forward(request, response);
     }
