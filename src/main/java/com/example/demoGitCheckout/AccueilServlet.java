@@ -10,7 +10,7 @@ public class AccueilServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        request.setAttribute("name", "Laurent Bouvet");
+        request.setAttribute("name", "Autre nom");
 
 
         RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/accueil.jsp");
