@@ -12,12 +12,7 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="${pageContext.request.contextPath}/">Accueil</a></li>
-                <li><a href="${pageContext.request.contextPath}/contact">Contact</a></li>
-            </ul>
-        </nav>
+        <%@ include file="nav_inc.jsp" %>
     </header>
     <main>
         <h1>Contact</h1>

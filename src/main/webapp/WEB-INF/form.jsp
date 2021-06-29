@@ -11,6 +11,9 @@
     <title>Form</title>
 </head>
 <body>
+    <header>
+        <%@ include file="nav_inc.jsp" %>
+    </header>
     <main>
         <div>
             <form action="" method="post">
